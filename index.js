@@ -4,7 +4,7 @@ $(function ()
     {
         function onSuccess(imageURI)
         {
-            var img_tag = '<img style="width:60px;height:60px;" id="smallImage" src="' + imageURI + '" />';
+            var img_tag = "<img style=\"width:60px;height:60px;\"  src=\"" + imageURI + "\"/>";
             $("body").append(img_tag);
         }
 
